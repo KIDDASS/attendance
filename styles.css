@@ -1,0 +1,25 @@
+/* Custom Styles */
+
+/* Smooth hover effect */
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+}
+
+/* Hero section background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, .navbar-brand {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
